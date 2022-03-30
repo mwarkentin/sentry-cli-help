@@ -1,0 +1,12 @@
+sentry-cli-issues-resolve 
+Bulk resolve all selected issues.
+
+USAGE:
+    sentry-cli issues resolve [OPTIONS]
+
+OPTIONS:
+    -h, --help                     Prints help information
+        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
+                                   info, warn, error]
+    -n, --next-release             Only select issues in the next release.
+    -V, --version                  Prints version information

@@ -1,0 +1,21 @@
+sentry-cli-releases-files 
+Manage release artifacts.
+
+USAGE:
+    sentry-cli releases files <VERSION> <SUBCOMMAND>
+
+OPTIONS:
+    -h, --help                     Prints help information
+        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
+                                   info, warn, error]
+    -V, --version                  Prints version information
+
+ARGS:
+    <VERSION>    The version of the release
+
+SUBCOMMANDS:
+    delete               Delete a release file.
+    help                 Prints this message or the help of the given subcommand(s)
+    list                 List all release files.
+    upload               Upload files for a release.
+    upload-sourcemaps    Upload sourcemaps for a release.

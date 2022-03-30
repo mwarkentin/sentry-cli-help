@@ -1,0 +1,11 @@
+sentry-cli-repos-list 
+List all repositories in your organization.
+
+USAGE:
+    sentry-cli repos list
+
+OPTIONS:
+    -h, --help                     Prints help information
+        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
+                                   info, warn, error]
+    -V, --version                  Prints version information

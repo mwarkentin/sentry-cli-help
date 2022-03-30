@@ -1,0 +1,16 @@
+sentry-cli-react-native 
+Upload build artifacts for react-native projects.
+
+USAGE:
+    sentry-cli react-native <SUBCOMMAND>
+
+OPTIONS:
+    -h, --help                     Prints help information
+        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
+                                   info, warn, error]
+
+SUBCOMMANDS:
+    appcenter    Upload react-native projects for AppCenter.
+    gradle       Upload react-native projects in a gradle build step.
+    help         Prints this message or the help of the given subcommand(s)
+    xcode        Upload react-native projects in a Xcode build step.

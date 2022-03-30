@@ -1,0 +1,17 @@
+sentry-cli-releases-new 
+Create a new release.
+
+USAGE:
+    sentry-cli releases new [OPTIONS] <VERSION>
+
+OPTIONS:
+        --finalize                 Immediately finalize the release. (sets it to released)
+    -h, --help                     Prints help information
+        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
+                                   info, warn, error]
+    -p, --project <PROJECT>...     The project slug.  This can be supplied multiple times.
+        --url <URL>                Optional URL to the release for information purposes.
+    -V, --version                  Prints version information
+
+ARGS:
+    <VERSION>    The version of the release

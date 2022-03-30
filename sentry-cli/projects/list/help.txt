@@ -1,0 +1,11 @@
+sentry-cli-projects-list 
+List all projects for an organization.
+
+USAGE:
+    sentry-cli projects list
+
+OPTIONS:
+    -h, --help                     Prints help information
+        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
+                                   info, warn, error]
+    -V, --version                  Prints version information

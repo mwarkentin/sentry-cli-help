@@ -1,0 +1,11 @@
+sentry-cli-issues-mute 
+Bulk mute all selected issues.
+
+USAGE:
+    sentry-cli issues mute
+
+OPTIONS:
+    -h, --help                     Prints help information
+        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
+                                   info, warn, error]
+    -V, --version                  Prints version information
