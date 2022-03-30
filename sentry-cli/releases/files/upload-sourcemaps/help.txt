@@ -38,6 +38,8 @@ OPTIONS:
             By default the tool will store a 'Sourcemap' header with minified files so that
             sourcemaps are located automatically if the tool can detect a link. If this causes
             issues it can be disabled.
+    -o, --org <ORG>                              The organization slug
+    -p, --project <PROJECT>...                   The project slug.
         --strip-common-prefix
             Similar to --strip-prefix but strips the most common prefix on all sources references.
 

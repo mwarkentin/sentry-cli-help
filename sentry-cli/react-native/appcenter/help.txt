@@ -19,7 +19,7 @@ OPTIONS:
 
     -o, --org <ORG>                      The organization slug
         --print-release-name             Print the release name instead.
-    -p, --project <PROJECT>              The project slug
+    -p, --project <PROJECT>              The project slug.
         --release-name <RELEASE_NAME>    Override the entire release-name
     -V, --version                        Prints version information
         --version-name <VERSION_NAME>    Override version name in release name

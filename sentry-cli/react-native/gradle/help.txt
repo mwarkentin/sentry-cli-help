@@ -12,7 +12,7 @@ OPTIONS:
         --log-level <LOG_LEVEL>     Set the log output verbosity. [possible values: trace, debug,
                                     info, warn, error]
     -o, --org <ORG>                 The organization slug
-    -p, --project <PROJECT>         The project slug
+    -p, --project <PROJECT>         The project slug.
         --release <RELEASE>         The name of the release to publish.
         --sourcemap <PATH>          The path to a sourcemap that should be uploaded.
     -V, --version                   Prints version information

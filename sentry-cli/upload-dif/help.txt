@@ -42,7 +42,7 @@ OPTIONS:
                                    tests.
         --no-zips                  Do not search in ZIP files.
     -o, --org <ORG>                The organization slug
-    -p, --project <PROJECT>        The project slug
+    -p, --project <PROJECT>        The project slug.
         --require-all              Errors if not all identifiers specified with --id could be found.
         --symbol-maps <PATH>       Optional path to BCSymbolMap files which are used to resolve
                                    hidden symbols in dSYM files downloaded from iTunes Connect.

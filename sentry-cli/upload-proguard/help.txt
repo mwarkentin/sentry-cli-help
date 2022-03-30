@@ -25,7 +25,7 @@ OPTIONS:
         --platform <PLATFORM>
             Optionally defines the platform for the app association. [defaults to 'android']
 
-    -p, --project <PROJECT>              The project slug
+    -p, --project <PROJECT>              The project slug.
         --require-one
             Requires at least one file to upload or the command will error.
 

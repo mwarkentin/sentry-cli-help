@@ -17,6 +17,8 @@ OPTIONS:
                                        file, e.g. .gitignore.
         --log-level <LOG_LEVEL>        Set the log output verbosity. [possible values: trace, debug,
                                        info, warn, error]
+    -o, --org <ORG>                    The organization slug
+    -p, --project <PROJECT>...         The project slug.
     -u, --url-prefix <PREFIX>          The URL prefix to prepend to all filenames.
         --url-suffix <SUFFIX>          The URL suffix to append to all filenames.
     -V, --version                      Prints version information

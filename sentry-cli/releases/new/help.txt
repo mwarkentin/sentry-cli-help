@@ -9,7 +9,8 @@ OPTIONS:
     -h, --help                     Prints help information
         --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
                                    info, warn, error]
-    -p, --project <PROJECT>...     The project slug.  This can be supplied multiple times.
+    -o, --org <ORG>                The organization slug
+    -p, --project <PROJECT>...     The project slug.
         --url <URL>                Optional URL to the release for information purposes.
     -V, --version                  Prints version information
 
