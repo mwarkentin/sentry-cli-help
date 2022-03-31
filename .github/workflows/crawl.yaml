@@ -1,0 +1,31 @@
+name: crawl
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ['main']
+    paths-ignore: ['README.md']
+  schedule:
+  - cron: '0 6 * * *' # Daily at 6 AM
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup Sentry CLI
+      uses: mathieu-bour/setup-sentry-cli@1.2.0
+    - run: |
+        rm -r sentry-cli/
+        ./crawl.sh
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "sentry-cli: ${timestamp}" || exit 0
+        git tag $(sentry-cli --version | cut -d' ' -f2)
+        git push
+        git push --tags -f
