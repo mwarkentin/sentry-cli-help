@@ -13,4 +13,3 @@ SUBCOMMANDS:
     appcenter    Upload react-native projects for AppCenter.
     gradle       Upload react-native projects in a gradle build step.
     help         Prints this message or the help of the given subcommand(s)
-    xcode        Upload react-native projects in a Xcode build step.
