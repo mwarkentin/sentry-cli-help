@@ -5,18 +5,22 @@ USAGE:
     sentry-cli issues [OPTIONS] <SUBCOMMAND>
 
 OPTIONS:
-    -a, --all                      Select all issues (this might be limited).
-    -h, --help                     Prints help information
-    -i, --id <id>...               Select the issue with the given ID.
-        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
-                                   info, warn, error]
-    -o, --org <ORG>                The organization slug
-    -p, --project <PROJECT>        The project slug.
-    -s, --status <STATUS>          Select all issues matching a given status. [possible values:
-                                   resolved, muted, unresolved]
+    -a, --all                        Select all issues (this might be limited).
+        --auth-token <AUTH_TOKEN>    Use the given Sentry auth token.
+    -h, --help                       Print help information
+    -i, --id                         Select the issue with the given ID.
+        --log-level <LOG_LEVEL>      Set the log output verbosity. [possible values: trace, debug,
+                                     info, warn, error]
+    -o, --org <ORG>                  The organization slug
+    -p, --project <PROJECT>          The project slug.
+        --quiet                      Do not print any output while preserving correct exit code.
+                                     This flag is currently implemented only for selected
+                                     subcommands. [aliases: silent]
+    -s, --status <STATUS>            Select all issues matching a given status. [possible values:
+                                     resolved, muted, unresolved]
 
 SUBCOMMANDS:
-    help         Prints this message or the help of the given subcommand(s)
+    help         Print this message or the help of the given subcommand(s)
     mute         Bulk mute all selected issues.
     resolve      Bulk resolve all selected issues.
     unresolve    Bulk unresolve all selected issues.

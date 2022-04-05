@@ -2,12 +2,15 @@ sentry-cli-releases-deploys-list
 List all deployments of a release.
 
 USAGE:
-    sentry-cli releases deploys <VERSION> list
+    sentry-cli releases deploys <VERSION> list [OPTIONS]
 
 OPTIONS:
-    -h, --help                     Prints help information
-        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
-                                   info, warn, error]
-    -o, --org <ORG>                The organization slug
-    -p, --project <PROJECT>...     The project slug.
-    -V, --version                  Prints version information
+        --auth-token <AUTH_TOKEN>    Use the given Sentry auth token.
+    -h, --help                       Print help information
+        --log-level <LOG_LEVEL>      Set the log output verbosity. [possible values: trace, debug,
+                                     info, warn, error]
+    -o, --org <ORG>                  The organization slug
+    -p, --project <PROJECT>          The project slug.
+        --quiet                      Do not print any output while preserving correct exit code.
+                                     This flag is currently implemented only for selected
+                                     subcommands. [aliases: silent]
