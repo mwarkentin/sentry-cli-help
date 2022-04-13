@@ -1,11 +1,8 @@
-sentry-cli-releases-files-delete 
-Delete a release file.
+sentry-cli-deploys 
+Manage deployments for Sentry releases.
 
 USAGE:
-    sentry-cli releases files <VERSION> delete [OPTIONS] [NAMES]...
-
-ARGS:
-    <NAMES>...    Filenames to delete.
+    sentry-cli deploys [OPTIONS] <SUBCOMMAND>
 
 OPTIONS:
         --auth-token <AUTH_TOKEN>    Use the given Sentry auth token.
@@ -17,3 +14,9 @@ OPTIONS:
         --quiet                      Do not print any output while preserving correct exit code.
                                      This flag is currently implemented only for selected
                                      subcommands. [aliases: silent]
+    -r, --release <RELEASE>          The release slug.
+
+SUBCOMMANDS:
+    help    Print this message or the help of the given subcommand(s)
+    list    List all deployments of a release.
+    new     Creates a new release deployment.

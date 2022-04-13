@@ -1,19 +1,17 @@
-sentry-cli-difutil-bundle-sources 
-Create a source bundle for a given debug information file
+sentry-cli-files-list 
+List all release files.
 
 USAGE:
-    sentry-cli difutil bundle-sources [OPTIONS] <paths>...
-
-ARGS:
-    <paths>...    The path to the input debug info files.
+    sentry-cli files list [OPTIONS]
 
 OPTIONS:
         --auth-token <AUTH_TOKEN>    Use the given Sentry auth token.
     -h, --help                       Print help information
         --log-level <LOG_LEVEL>      Set the log output verbosity. [possible values: trace, debug,
                                      info, warn, error]
-    -o, --output <PATH>              The path to the output folder.  If not provided the file is
-                                     placed next to the input file.
+    -o, --org <ORG>                  The organization slug
+    -p, --project <PROJECT>          The project slug.
         --quiet                      Do not print any output while preserving correct exit code.
                                      This flag is currently implemented only for selected
                                      subcommands. [aliases: silent]
+    -r, --release <RELEASE>          The release slug.

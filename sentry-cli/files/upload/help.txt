@@ -1,8 +1,8 @@
-sentry-cli-releases-files-upload 
+sentry-cli-files-upload 
 Upload files for a release.
 
 USAGE:
-    sentry-cli releases files <VERSION> upload [OPTIONS] <PATH> [NAME]
+    sentry-cli files upload [OPTIONS] <PATH> [NAME]
 
 ARGS:
     <PATH>    The path to the file or directory to upload.
@@ -23,6 +23,7 @@ OPTIONS:
         --quiet                        Do not print any output while preserving correct exit code.
                                        This flag is currently implemented only for selected
                                        subcommands. [aliases: silent]
+    -r, --release <RELEASE>            The release slug.
     -u, --url-prefix <PREFIX>          The URL prefix to prepend to all filenames.
         --url-suffix <SUFFIX>          The URL suffix to append to all filenames.
         --wait                         Wait for the server to fully process uploaded files.

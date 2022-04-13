@@ -1,8 +1,8 @@
-sentry-cli-upload-dif 
+sentry-cli-debug-files-upload 
 Upload debugging information files.
 
 USAGE:
-    sentry-cli upload-dif [OPTIONS] [PATH]...
+    sentry-cli debug-files upload [OPTIONS] [PATH]...
 
 ARGS:
     <PATH>...    A path to search recursively for symbol files.

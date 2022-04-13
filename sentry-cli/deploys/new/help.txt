@@ -1,8 +1,8 @@
-sentry-cli-releases-deploys-new 
+sentry-cli-deploys-new 
 Creates a new release deployment.
 
 USAGE:
-    sentry-cli releases deploys <VERSION> new [OPTIONS] --env <ENV>
+    sentry-cli deploys new [OPTIONS] --env <ENV>
 
 OPTIONS:
         --auth-token <AUTH_TOKEN>    Use the given Sentry auth token.
@@ -19,6 +19,7 @@ OPTIONS:
         --quiet                      Do not print any output while preserving correct exit code.
                                      This flag is currently implemented only for selected
                                      subcommands. [aliases: silent]
+    -r, --release <RELEASE>          The release slug.
         --started <TIMESTAMP>        Optional unix timestamp when the deployment started.
     -t, --time <SECONDS>             Optional deployment duration in seconds.
                                      This can be specified alternatively to `--started` and

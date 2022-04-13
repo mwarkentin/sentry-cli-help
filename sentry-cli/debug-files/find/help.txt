@@ -1,8 +1,8 @@
-sentry-cli-difutil-find 
+sentry-cli-debug-files-find 
 Locate debug information files for given debug identifiers.
 
 USAGE:
-    sentry-cli difutil find [OPTIONS] [ID]...
+    sentry-cli debug-files find [OPTIONS] [ID]...
 
 ARGS:
     <ID>...    The debug identifiers of the files to search for.

@@ -1,8 +1,8 @@
-sentry-cli-releases-files-upload-sourcemaps 
+sentry-cli-sourcemaps-upload 
 Upload sourcemaps for a release.
 
 USAGE:
-    sentry-cli releases files <VERSION> upload-sourcemaps [OPTIONS] [PATHS]...
+    sentry-cli sourcemaps upload [OPTIONS] [PATHS]...
 
 ARGS:
     <PATHS>...    The files to upload.
@@ -54,6 +54,9 @@ OPTIONS:
         --quiet
             Do not print any output while preserving correct exit code. This flag is currently
             implemented only for selected subcommands. [aliases: silent]
+
+    -r, --release <RELEASE>
+            The release slug.
 
         --strip-common-prefix
             Similar to --strip-prefix but strips the most common prefix on all sources references.
