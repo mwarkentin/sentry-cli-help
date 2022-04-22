@@ -34,6 +34,10 @@ OPTIONS:
     -h, --help
             Print help information
 
+        --header <KEY:VALUE>
+            Custom headers that should be attached to all requests
+            in key:value format.
+
         --ignore-missing
             When the flag is set and the previous release commit was not found in the repository,
             will create a release with the default commits count (or the one specified with

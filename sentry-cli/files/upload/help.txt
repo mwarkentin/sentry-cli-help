@@ -13,6 +13,8 @@ OPTIONS:
     -d, --dist <DISTRIBUTION>          Optional distribution identifier for this file.
     -h, --help                         Print help information
     -H, --file-header <KEY VALUE>      Store a header with this file.
+        --header <KEY:VALUE>           Custom headers that should be attached to all requests
+                                       in key:value format.
     -i, --ignore <IGNORE>              Ignores all files and folders matching the given glob
     -I, --ignore-file <IGNORE_FILE>    Ignore all files and folders specified in the given ignore
                                        file, e.g. .gitignore.

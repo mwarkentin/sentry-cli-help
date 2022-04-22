@@ -23,6 +23,10 @@ OPTIONS:
     -h, --help
             Print help information
 
+        --header <KEY:VALUE>
+            Custom headers that should be attached to all requests
+            in key:value format.
+
     -i, --ignore <IGNORE>
             Ignores all files and folders matching the given glob
 
