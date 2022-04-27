@@ -1,18 +1,23 @@
-sentry-cli-releases-new 
-Create a new release.
+sentry-cli-releases-files 
+Manage release artifacts.
 
 USAGE:
-    sentry-cli releases new [OPTIONS] <VERSION>
+    sentry-cli releases files <VERSION> <SUBCOMMAND>
 
 OPTIONS:
-        --finalize                 Immediately finalize the release. (sets it to released)
     -h, --help                     Prints help information
         --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
                                    info, warn, error]
     -o, --org <ORG>                The organization slug
     -p, --project <PROJECT>...     The project slug.
-        --url <URL>                Optional URL to the release for information purposes.
     -V, --version                  Prints version information
 
 ARGS:
     <VERSION>    The version of the release
+
+SUBCOMMANDS:
+    delete               Delete a release file.
+    help                 Prints this message or the help of the given subcommand(s)
+    list                 List all release files.
+    upload               Upload files for a release.
+    upload-sourcemaps    Upload sourcemaps for a release.

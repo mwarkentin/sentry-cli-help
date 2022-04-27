@@ -1,8 +1,8 @@
-sentry-cli-releases-propose-version 
-Propose a version name for a new release.
+sentry-cli-releases-deploys 
+Manage release deployments.
 
 USAGE:
-    sentry-cli releases propose-version
+    sentry-cli releases deploys <VERSION> <SUBCOMMAND>
 
 OPTIONS:
     -h, --help                     Prints help information
@@ -11,3 +11,11 @@ OPTIONS:
     -o, --org <ORG>                The organization slug
     -p, --project <PROJECT>...     The project slug.
     -V, --version                  Prints version information
+
+ARGS:
+    <VERSION>    The version of the release
+
+SUBCOMMANDS:
+    help    Prints this message or the help of the given subcommand(s)
+    list    List all deployments of a release.
+    new     Creates a new release deployment.

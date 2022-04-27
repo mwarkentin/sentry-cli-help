@@ -5,18 +5,13 @@ USAGE:
     sentry-cli releases list [OPTIONS]
 
 OPTIONS:
-        --auth-token <AUTH_TOKEN>    Use the given Sentry auth token.
-    -D, --delimiter <delimiter>      Delimiter for the --raw flag
-    -h, --help                       Print help information
-        --header <KEY:VALUE>         Custom headers that should be attached to all requests
-                                     in key:value format.
-        --log-level <LOG_LEVEL>      Set the log output verbosity. [possible values: trace, debug,
-                                     info, warn, error]
-    -o, --org <ORG>                  The organization slug
-    -p, --project <PROJECT>          The project slug.
-    -P, --show-projects              Display the Projects column
-        --quiet                      Do not print any output while preserving correct exit code.
-                                     This flag is currently implemented only for selected
-                                     subcommands. [aliases: silent]
-    -R, --raw                        Print raw, delimiter separated list of releases. [defaults to
-                                     new line]
+    -D, --delimiter <delimiter>    Delimiter for the --raw flag
+    -h, --help                     Prints help information
+        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
+                                   info, warn, error]
+    -o, --org <ORG>                The organization slug
+    -p, --project <PROJECT>...     The project slug.
+    -R, --raw                      Print raw, delimiter separated list of releases. [defaults to new
+                                   line]
+    -P, --show-projects            Display the Projects column
+    -V, --version                  Prints version information
