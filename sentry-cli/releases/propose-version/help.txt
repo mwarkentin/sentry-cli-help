@@ -2,12 +2,17 @@ sentry-cli-releases-propose-version
 Propose a version name for a new release.
 
 USAGE:
-    sentry-cli releases propose-version
+    sentry-cli releases propose-version [OPTIONS]
 
 OPTIONS:
-    -h, --help                     Prints help information
-        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
-                                   info, warn, error]
-    -o, --org <ORG>                The organization slug
-    -p, --project <PROJECT>...     The project slug.
-    -V, --version                  Prints version information
+        --auth-token <AUTH_TOKEN>    Use the given Sentry auth token.
+    -h, --help                       Print help information
+        --header <KEY:VALUE>         Custom headers that should be attached to all requests
+                                     in key:value format.
+        --log-level <LOG_LEVEL>      Set the log output verbosity. [possible values: trace, debug,
+                                     info, warn, error]
+    -o, --org <ORG>                  The organization slug
+    -p, --project <PROJECT>          The project slug.
+        --quiet                      Do not print any output while preserving correct exit code.
+                                     This flag is currently implemented only for selected
+                                     subcommands. [aliases: silent]

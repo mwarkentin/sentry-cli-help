@@ -1,0 +1,29 @@
+sentry-cli-deploys-new 
+Creates a new release deployment.
+
+USAGE:
+    sentry-cli deploys new [OPTIONS] --env <ENV>
+
+OPTIONS:
+        --auth-token <AUTH_TOKEN>    Use the given Sentry auth token.
+    -e, --env <ENV>                  Set the environment for this release.
+                                     This argument is required.  Values that make sense here would
+                                     be 'production' or 'staging'.
+        --finished <TIMESTAMP>       Optional unix timestamp when the deployment finished.
+    -h, --help                       Print help information
+        --header <KEY:VALUE>         Custom headers that should be attached to all requests
+                                     in key:value format.
+        --log-level <LOG_LEVEL>      Set the log output verbosity. [possible values: trace, debug,
+                                     info, warn, error]
+    -n, --name <NAME>                Optional human readable name for this deployment.
+    -o, --org <ORG>                  The organization slug
+    -p, --project <PROJECT>          The project slug.
+        --quiet                      Do not print any output while preserving correct exit code.
+                                     This flag is currently implemented only for selected
+                                     subcommands. [aliases: silent]
+    -r, --release <RELEASE>          The release slug.
+        --started <TIMESTAMP>        Optional unix timestamp when the deployment started.
+    -t, --time <SECONDS>             Optional deployment duration in seconds.
+                                     This can be specified alternatively to `--started` and
+                                     `--finished`.
+    -u, --url <URL>                  Optional URL that points to the deployment.

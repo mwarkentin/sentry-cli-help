@@ -5,11 +5,15 @@ USAGE:
     sentry-cli info [OPTIONS]
 
 OPTIONS:
-        --config-status-json       Return the status of the config that sentry-cli loads as JSON
-                                   dump. This can be used by external tools to aid the user towards
-                                   configuration.
-    -h, --help                     Prints help information
-        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
-                                   info, warn, error]
-    -q, --quiet                    Do not output anything, just report a status code for correct
-                                   config.
+        --auth-token <AUTH_TOKEN>    Use the given Sentry auth token.
+        --config-status-json         Return the status of the config that sentry-cli loads as JSON
+                                     dump. This can be used by external tools to aid the user
+                                     towards configuration.
+    -h, --help                       Print help information
+        --header <KEY:VALUE>         Custom headers that should be attached to all requests
+                                     in key:value format.
+        --log-level <LOG_LEVEL>      Set the log output verbosity. [possible values: trace, debug,
+                                     info, warn, error]
+        --quiet                      Do not print any output while preserving correct exit code.
+                                     This flag is currently implemented only for selected
+                                     subcommands. [aliases: silent]
