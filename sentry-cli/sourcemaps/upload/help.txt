@@ -69,8 +69,8 @@ OPTIONS:
             Strips the given prefix from all sources references inside the upload sourcemaps (paths
             used within the sourcemap content, to map minified code to it's original source). Only
             sources that start with the given prefix will be stripped.
-            This will not modify the uploaded sources paths. To do that, point the upload or upload-
-            sourcemaps command to a more precise directory instead.
+            This will not modify the uploaded sources paths. To do that, point the upload or
+            upload-sourcemaps command to a more precise directory instead.
 
     -u, --url-prefix <PREFIX>
             The URL prefix to prepend to all filenames.
