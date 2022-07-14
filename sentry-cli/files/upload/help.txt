@@ -11,6 +11,7 @@ ARGS:
 OPTIONS:
         --auth-token <AUTH_TOKEN>      Use the given Sentry auth token.
     -d, --dist <DISTRIBUTION>          Optional distribution identifier for this file.
+        --decompress                   Enable files gzip decompression prior to upload.
     -h, --help                         Print help information
     -H, --file-header <KEY VALUE>      Store a header with this file.
         --header <KEY:VALUE>           Custom headers that should be attached to all requests
