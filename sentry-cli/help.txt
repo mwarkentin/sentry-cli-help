@@ -1,4 +1,4 @@
-sentry-cli 2.5.0
+sentry-cli 2.5.1
 
 Command line utility for Sentry.
 
