@@ -17,7 +17,7 @@ OPTIONS:
                                      info, warn, error]
         --no-cwd                     Do not look for debug symbols in the current working directory.
         --no-well-known              Do not look for debug symbols in well known locations.
-    -p, --path                       Add a path to search recursively for debug info files.
+    -p, --path <PATH>                Add a path to search recursively for debug info files.
         --quiet                      Do not print any output while preserving correct exit code.
                                      This flag is currently implemented only for selected
                                      subcommands. [aliases: silent]
