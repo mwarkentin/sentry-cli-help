@@ -20,4 +20,5 @@ OPTIONS:
                                      subcommands. [aliases: silent]
     -t, --type <TYPE>                Explicitly set the type of the debug info file. This should not
                                      be needed as files are auto detected. [possible values: dsym,
-                                     elf, proguard, breakpad]
+                                     elf, pe, pdb, portablepdb, sourcebundle, breakpad, proguard,
+                                     wasm]

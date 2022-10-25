@@ -23,4 +23,4 @@ OPTIONS:
                                      subcommands. [aliases: silent]
     -t, --type <TYPE>                Only consider debug information files of the given type.  By
                                      default all types are considered. [possible values: dsym, elf,
-                                     pe, pdb, proguard, breakpad, sourcebundle]
+                                     pe, pdb, portablepdb, sourcebundle, breakpad, proguard, wasm]
