@@ -32,3 +32,6 @@ OPTIONS:
             implemented only for selected subcommands.
             
             [aliases: silent]
+
+        --raw
+            Send envelopes without attempting to parse their contents.
