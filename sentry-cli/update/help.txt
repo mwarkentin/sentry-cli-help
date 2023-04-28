@@ -1,0 +1,11 @@
+sentry-cli-update 
+Update the sentry-cli executable.
+
+USAGE:
+    sentry-cli update [OPTIONS]
+
+OPTIONS:
+    -f, --force                    Force the update even if the latest version is already installed.
+    -h, --help                     Prints help information
+        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
+                                   info, warn, error]
