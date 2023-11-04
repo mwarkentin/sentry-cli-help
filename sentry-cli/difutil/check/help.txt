@@ -1,0 +1,18 @@
+sentry-cli-difutil-check 
+Check the debug info file at a given path.
+
+USAGE:
+    sentry-cli difutil check [OPTIONS] <path>
+
+OPTIONS:
+    -h, --help                     Prints help information
+        --json                     Format outputs as JSON.
+        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
+                                   info, warn, error]
+    -t, --type <TYPE>              Explicitly set the type of the debug info file. This should not
+                                   be needed as files are auto detected. [possible values: dsym,
+                                   elf, proguard, breakpad]
+    -V, --version                  Prints version information
+
+ARGS:
+    <path>    The path to the debug info file.
