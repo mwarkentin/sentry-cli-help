@@ -1,0 +1,13 @@
+sentry-cli-bash-hook 
+Prints out a bash script that does error handling.
+
+USAGE:
+    sentry-cli bash-hook [OPTIONS]
+
+OPTIONS:
+        --cli <CMD>                Explicitly set/override the sentry-cli command
+    -h, --help                     Prints help information
+        --log-level <LOG_LEVEL>    Set the log output verbosity. [possible values: trace, debug,
+                                   info, warn, error]
+        --no-environ               Do not send environment variables along
+        --no-exit                  Do not turn on -e (exit immediately) flag automatically
